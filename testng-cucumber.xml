@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<!--<listener class-name="resources.Listeners"/> //cucumber does not work 
+			with this, for screenshot, check the Hooks class -->
+		<listener class-name="resources.ExtentReportCustom" />
+	</listeners>
+
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="cucumber_runners.TestRunner" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

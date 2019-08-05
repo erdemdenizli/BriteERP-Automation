@@ -1,0 +1,184 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("cancel_and_delete.feature");
+formatter.feature({
+  "line": 1,
+  "name": "EventsCRM Manager Cancel and Delete",
+  "description": "",
+  "id": "eventscrm-manager-cancel-and-delete",
+  "keyword": "Feature"
+});
+formatter.before({
+  "duration": 11079757316,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 4,
+  "name": "User should be able to cancel a confirmed event",
+  "description": "",
+  "id": "eventscrm-manager-cancel-and-delete;user-should-be-able-to-cancel-a-confirmed-event",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@Events"
+    }
+  ]
+});
+formatter.step({
+  "line": 6,
+  "name": "user is on Events page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "user selects a created and confirmed event",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "user clicks on cancel button from the top of the page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 9,
+  "name": "verify that the event is set as cancelled",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.user_is_on_Events_page()"
+});
+formatter.result({
+  "duration": 3106153876,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.user_selects_a_created_and_confirmed_event()"
+});
+formatter.result({
+  "duration": 103007516,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.user_clicks_on_cancel_button_from_the_top_of_the_page()"
+});
+formatter.result({
+  "duration": 5466805677,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.verify_that_the_event_is_set_as_cancelled()"
+});
+formatter.result({
+  "duration": 20025310330,
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@data-value\u003d\u0027cancel\u0027]\"}\n  (Session info: chrome\u003d75.0.3770.142)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Erdems-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:1cb2:44ef:846e:ee02%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.5\u0027, java.version: \u002711.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: /var/folders/wj/q2sj9_ss5cz...}, goog:chromeOptions: {debuggerAddress: localhost:51294}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: e1ff7b6c58dc3b83235998647ce01b54\n*** Element info: {Using\u003dxpath, value\u003d//button[@data-value\u003d\u0027cancel\u0027]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy26.isDisplayed(Unknown Source)\n\tat step_definitions.StepDefinitions.verify_that_the_event_is_set_as_cancelled(StepDefinitions.java:52)\n\tat ✽.And verify that the event is set as cancelled(cancel_and_delete.feature:9)\n",
+  "status": "failed"
+});
+formatter.after({
+  "duration": 1130593618,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 11963389607,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 12,
+  "name": "User should be able to cancel and delete a confirmed event",
+  "description": "",
+  "id": "eventscrm-manager-cancel-and-delete;user-should-be-able-to-cancel-and-delete-a-confirmed-event",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 11,
+      "name": "@Events"
+    }
+  ]
+});
+formatter.step({
+  "line": 14,
+  "name": "user is on Events page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 15,
+  "name": "user selects a created and confirmed event",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 16,
+  "name": "user clicks on cancel button from the top of the page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 17,
+  "name": "verify that the event is set as cancelled",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 18,
+  "name": "user clicks on action button from the top of the page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 19,
+  "name": "user clicks on delete button from the top of the page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 20,
+  "name": "verify that the event is deleted",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.user_is_on_Events_page()"
+});
+formatter.result({
+  "duration": 3008967394,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.user_selects_a_created_and_confirmed_event()"
+});
+formatter.result({
+  "duration": 83716245,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.user_clicks_on_cancel_button_from_the_top_of_the_page()"
+});
+formatter.result({
+  "duration": 448529287,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.verify_that_the_event_is_set_as_cancelled()"
+});
+formatter.result({
+  "duration": 8720801479,
+  "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath\u003d//button[@data-value\u003d\u0027cancel\u0027]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Erdems-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:1cb2:44ef:846e:ee02%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.5\u0027, java.version: \u002711.0.1\u0027\nDriver info: driver.version: RemoteWebDriver\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy26.isDisplayed(Unknown Source)\n\tat step_definitions.StepDefinitions.verify_that_the_event_is_set_as_cancelled(StepDefinitions.java:52)\n\tat ✽.And verify that the event is set as cancelled(cancel_and_delete.feature:17)\n",
+  "status": "failed"
+});
+formatter.match({
+  "location": "StepDefinitions.user_clicks_on_action_button_from_the_top_of_the_page()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "StepDefinitions.user_clicks_on_delete_button_from_the_top_of_the_page()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "StepDefinitions.verify_that_the_event_is_deleted()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.after({
+  "duration": 89207306,
+  "status": "passed"
+});
+});

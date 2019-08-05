@@ -1,0 +1,16 @@
+21:12:10.411 [main] INFO  base.Base - Logged in successfully
+21:12:10.861 [main] INFO  base.Base - Navigated to Events Page successfully
+21:12:13.940 [main] INFO  base.Base - Events Page is open
+21:12:14.019 [main] INFO  base.Base - A confirmed event is selected
+21:12:18.983 [main] INFO  base.Base - Browser is closed
+21:12:22.378 [main] INFO  base.Base - Logged in successfully
+21:12:22.828 [main] INFO  base.Base - Navigated to Events Page successfully
+21:12:25.843 [main] INFO  base.Base - Events Page is open
+21:12:25.918 [main] INFO  base.Base - A confirmed event is selected
+21:12:28.120 [main] INFO  base.Base - Browser is closed
+13:46:29.916 [main] INFO  base.Base - Logged in successfully
+13:46:30.396 [main] INFO  base.Base - Navigated to Events Page successfully
+13:46:33.491 [main] INFO  base.Base - Events Page is open
+13:46:33.586 [main] INFO  base.Base - A confirmed event is selected
+13:46:38.088 [main] INFO  base.Base - Browser is closed
+13:46:40.125 [main] INFO  base.Base - Browser is closed
